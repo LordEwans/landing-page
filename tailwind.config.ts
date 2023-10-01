@@ -8,7 +8,17 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'border': 'border 6s ease infinite',
+      },
+      keyframes: {
+        border: {
+          '0%, 100%': { backgroundPosition: '0% 70%' },
+          '70%': { backgroundPosition: '100% 30%' },
+        },
+      },
+    },
   },
   plugins: [require("daisyui")]
 }
