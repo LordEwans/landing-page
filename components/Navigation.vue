@@ -25,7 +25,7 @@
       </button> -->
     </nav>
     <div class="justify-self-end">
-      <nuxt-link to="#start" class="btn btn-md text-xs mx-6 my-1 btn-accent">Join Waitlist</nuxt-link>
+      <nuxt-link to="#start" class="btn btn-md text-xs mx-6 my-1 btn-accent">Create Wallet</nuxt-link>
     </div>
   </header>
 </template>
